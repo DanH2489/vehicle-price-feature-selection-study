@@ -5,7 +5,7 @@ Leveraging experience and knowledge within the automotive sector, this project a
 
 By comparing **Domain Expertise** against **Data Scientist Reasoning** and **Algorithmic Selection**, this study identifies the most robust foundation for vehicle pricing models. 
 
-> **Key Result:** While Domain Knowledge achieved high raw accuracy, the "Data Scientist Reasoning" approach provided the most stable performance under cross validation, reducing the "generalization gap" significantly. 
+> **Key Result:** While Domain Knowledge achieved high raw accuracy, the "Data Scientist Reasoning" approach provided the most stable performance under cross validation, reducing the "generalisation gap" significantly. 
 
 ## 🛠 The Challenge 
 Is "Domain Expertise" always superior to "Algorithmic Selection"? This study compares five distinct approaches to feature engineering to identify the most robust predictive foundation for vehicle pricing. 
@@ -18,7 +18,7 @@ Is "Domain Expertise" always superior to "Algorithmic Selection"? This study com
 * **Data Scientist Reasoning:** An optimised hybrid approach leveraging analytical judgment to balance complexity and predictive power.
 
 ## 📈 Results & Visual Analysis 
-The study revealed a critical **generalization gap** between training performance and real world stability.
+The study revealed a critical **generalisation gap** between training performance and real world stability.
 
 ![Model Performance Comparison](Model_Comparison.png)
 
