@@ -24,7 +24,7 @@ The study revealed a critical **generalisation gap** between training performa
 
 ### Key Observations: 
 * **Overfitting in Domain Models:** While the **Domain Knowledge** approach achieved the highest raw accuracy on the test set, its performance dropped significantly during cross validation.
-* **Stability of Reasoning:** The **Data Scientist Reasoning** approach achieved the highest Cross-Validation $R^2$ (78.4%), proving that analytical judgment — when used to bridge domain gaps — creates a more resilient model.
+* **Stability of Reasoning:** The **Data Scientist Reasoning** approach achieved the highest cross validation R^2 (78.4%), proving that analytical judgment — when used to bridge domain gaps — creates a more resilient model.
 * **Simplification vs. Power:** Algorithmic methods like RFE and Correlation reduction showed that while simplifying a model reduces overfitting, it must be balanced against the loss of predictive power.
 
 ## 🚀 Future Roadmap 
