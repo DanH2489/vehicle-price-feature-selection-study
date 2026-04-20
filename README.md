@@ -1,4 +1,4 @@
-# 🚀 Vehicle Price Prediction: Feature Selection Strategy Analysis 
+# Vehicle Price Prediction: Feature Selection Strategy Analysis 
 
 ## 🎯 Executive Summary 
 Leveraging experience and knowledge within the automotive sector, this project addresses the critical challenge of pricing accuracy — a high-stakes balancing act between profit margins and sales velocity. It investigates how different feature selection methodologies impact a regression model's ability to generalise. 
