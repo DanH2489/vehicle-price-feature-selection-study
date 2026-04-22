@@ -3,19 +3,21 @@
 ## 🎯 Executive Summary 
 Leveraging experience and knowledge within the automotive sector, this project addresses the critical challenge of pricing accuracy — a high-stakes balancing act between profit margins and sales velocity. It investigates how different feature selection methodologies impact a regression model's ability to generalise. 
 
-By comparing **Domain Expertise** against **Data Scientist Reasoning** and **Algorithmic Selection**, this study identifies the most robust foundation for vehicle pricing models. 
+By comparing **Domain Expertise** against **Analytical Feature Selection** and **Algorithmic Selection**, this study identifies the most robust foundation for vehicle pricing models. 
 
-> **Key Result:** While "Domain Knowledge" achieved high raw accuracy, the "Data Scientist Reasoning" approach provided the most stable performance under cross validation, reducing the "generalisation gap" significantly. 
+> **Key Result:** While "Domain Knowledge" achieved high raw accuracy, the "Analytical Feature Selection" approach provided the most stable performance under cross validation, improving consistency significantly. 
+
+This highlights the importance of selecting models based on real world stability rather than test accuracy alone.
 
 ## 🛠 The Challenge 
-Is "Domain Expertise" always superior to "Algorithmic Selection"? This study compares five distinct approaches to feature engineering to identify the most robust predictive foundation for vehicle pricing. 
+Is "Domain Expertise" always superior to "Algorithmic Selection"? This study compares five distinct feature selection approaches to identify the most robust predictive foundation for vehicle pricing. 
 
 ## 🧪 Methodologies Compared 
 * **Mutual Information (MI) Statistical Baseline:** Evaluating the raw statistical dependency of features on price as a foundation for the hybrid selection strategies.
-* **Correlation Based Reduction:** Systematically removing redundant features to minimize multi-collinearity. 
+* **Correlation Based Reduction:** Systematically removing redundant features to minimize multicollinearity. 
 * **Domain Knowledge Selection:** Manually selecting features based on traditional automotive industry knowledge and assumptions. 
 * **Recursive Feature Elimination (RFE):** Using an iterative, model driven approach to prune the feature set. 
-* **Data Scientist Reasoning:** An optimised hybrid approach leveraging analytical judgment to balance complexity and predictive power.
+* **Analytical Feature Selection:** An optimised hybrid approach leveraging analytical judgment to balance complexity and predictive power.
 
 ## 📈 Results & Visual Analysis 
 The study revealed a critical **generalisation gap** between training performance and real world stability.
@@ -24,7 +26,7 @@ The study revealed a critical **generalisation gap** between training performa
 
 ### Key Observations: 
 * **Overfitting in Domain Models:** While the **Domain Knowledge** approach achieved the highest raw accuracy on the test set, its performance dropped significantly during cross validation.
-* **Stability of Reasoning:** The **Data Scientist Reasoning** approach achieved the highest cross validation $R^2$ (78.4%), proving that analytical judgment — when used to bridge domain gaps — creates a more resilient model.
+* **Stability of Reasoning:** The **Analytical Feature Selection** approach achieved the highest cross validation $R^2$ (78.4%), proving that analytical judgment — when used to bridge domain gaps — creates a more resilient model.
 * **Simplification vs. Power:** Algorithmic methods like **RFE** and **Correlation Based Reduction** showed that while simplifying a model reduces overfitting, it must be balanced against the loss of predictive power.
 
 ## 🚀 Future Roadmap 
